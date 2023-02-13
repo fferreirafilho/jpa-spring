@@ -11,6 +11,7 @@ import com.dibrador.br.courseJPASpring.entities.User;
 @RequestMapping(value = "/users")
 public class UserResource {
 	
+		
 	@GetMapping
 	public ResponseEntity<User> findAll(){
 		User u = new User(1L, "Fernando", "maria@gmail.com", "999999", "123456");
