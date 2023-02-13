@@ -1,0 +1,5 @@
+package com.dibrador.br.courseJPASpring.entities.resources;
+
+public class UserResource {
+
+}
