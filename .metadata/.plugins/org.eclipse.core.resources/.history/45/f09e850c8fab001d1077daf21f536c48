@@ -1,0 +1,13 @@
+package com.dibrador.br.courseJPASpring.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.dibrador.br.courseJPASpring.repositories.UserRepository;
+
+public class UserService {
+	
+	@Autowired
+	private UserRepository repository;
+	
+	
+}
