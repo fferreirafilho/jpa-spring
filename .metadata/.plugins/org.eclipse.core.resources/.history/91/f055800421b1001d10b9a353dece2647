@@ -1,0 +1,7 @@
+package com.dibrador.br.courseJPASpring.entities;
+
+public class Product {
+	
+	private Long id;
+	
+}

@@ -1,0 +1,9 @@
+package com.dibrador.br.courseJPASpring.entities;
+
+public class Category {
+	
+	private Long id;
+	private String name;
+
+	
+}
