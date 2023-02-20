@@ -1,0 +1,5 @@
+package com.dibrador.br.courseJPASpring.entities.pk;
+
+public class OrderItemPK {
+	private Order order;
+}
