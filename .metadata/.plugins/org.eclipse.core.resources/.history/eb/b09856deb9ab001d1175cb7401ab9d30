@@ -1,7 +1,0 @@
-package com.dibrador.br.courseJPASpring.entities;
-
-import java.io.Serializable;
-
-public class Order implements Serializable{
-
-}

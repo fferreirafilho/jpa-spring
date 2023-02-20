@@ -1,0 +1,6 @@
+package com.dibrador.br.courseJPASpring.services.exceptions.DatabaseException;
+
+public class DataBaseException extends RuntimeException  {
+
+	
+}

@@ -1,6 +1,0 @@
-package com.dibrador.br.courseJPASpring.entities;
-
-@Entity
-public class User {
-
-}

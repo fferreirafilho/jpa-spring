@@ -1,0 +1,15 @@
+package com.dibrador.br.courseJPASpring.services.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+	
+    @Override
+    public synchronized Throwable fillInStackTrace() {
+        return null;
+    }
+
+	public ResourceNotFoundException(Object id) {
+		super("Resource not found. Id ");
+	}
+}

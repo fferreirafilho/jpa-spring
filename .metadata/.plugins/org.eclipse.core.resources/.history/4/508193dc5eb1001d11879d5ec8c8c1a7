@@ -1,0 +1,13 @@
+package com.dibrador.br.courseJPASpring.entities.resources.exceptions;
+
+public class StandardError extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+
+	private Instant timestamp;
+	
+	public StandardError(Object id) {
+		super("Resource not found. Id " + id);
+	} 
+
+}
