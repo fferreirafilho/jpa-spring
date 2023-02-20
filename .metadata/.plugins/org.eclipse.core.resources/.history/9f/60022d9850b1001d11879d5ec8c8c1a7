@@ -1,0 +1,14 @@
+package com.dibrador.br.courseJPASpring.entities;
+
+import java.time.Instant;
+
+public class Payment {
+	private Long id;
+	private Instant moment;
+	
+	private Order order;
+	
+	public payment() {
+		
+	}
+}

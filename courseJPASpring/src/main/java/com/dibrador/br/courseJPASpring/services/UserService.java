@@ -23,4 +23,25 @@ public class UserService {
 		Optional<User> obj = repository.findById(id);
 		return obj.get();
 	}
+	
+	public User insert(User obj) {
+		return repository.save(obj);
+	}
+	
+	public void delete(Long id) {
+		repository.deleteById(id);		
+	}
+	
+	public User update(Long id, User obj) {
+		User entity = repository.getReferenceById(id);
+		updateData(entity, obj);
+		return repository.save(entity);
+	}
+
+	//*---------------------------Metodos privados------------------------------------------*/
+	private void updateData(User entity, User obj) {
+		entity.setName(obj.getName() == null ? entity.getName() : obj.getName());
+		entity.setEmail(obj.getEmail() == null ? entity.getEmail() : obj.getEmail());
+		entity.setPhone(obj.getPhone() == null ? entity.getPhone() : obj.getPhone());
+	}
 }

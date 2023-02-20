@@ -1,0 +1,6 @@
+package com.dibrador.br.courseJPASpring.entities;
+
+public class Payments {
+	private Long id;
+	private Instante moment;
+}
